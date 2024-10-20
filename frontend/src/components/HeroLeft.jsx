@@ -16,10 +16,26 @@ const HeroLeft = () => {
         </div>
 
         <div className='mt-2 flex flex-col md:flex-row justify-between'>
-            <div className=' py-[60px] px-10 w-[49%] text-gray-600 bg-[#ffd2df] rounded-lg'>
-                Donno Donno Donno Donno Donno Donno  Donno Donno Donno Donno 
+            <div className='py-[30px] md:py-[60px] px-10 w-full mb-2 md:w-[49%] text-gray-600 bg-[#ffd2df] rounded-lg'>
+               <h1 className='text-black text-2xl font-slight-bold mb-2 md:mb-3'>Let's Connect !</h1>
+               
+               <div className='flex justify-between md:flex-col gap-2'>
+                <div className="flex md:text-[11px] gap-1">
+                    <p className='bg-[#ff9ab7] p-3 rounded-lg px-4 cursor-pointer w-1/2'>+918838202521</p>
+                    <p className='bg-[#ff9ab7] p-3 rounded-lg px-4 cursor-pointer w-1/2'>sensanjana072@gmail.com</p>
+                </div>
+
+                <div className="flex md:text-[11px] gap-1">
+                <p className='bg-[#ff9ab7] p-3 rounded-lg px-4 cursor-pointer w-1/2'>GitHub</p>
+               <p className='bg-[#ff9ab7] p-3 rounded-lg px-4 cursor-pointer w-1/2'>LinkedIn</p>
+               
+                </div>
+               
+               
+               </div>
+               <p></p>
             </div>
-            <div className='rounded-lg p-4 py-6 w-1/2 bg-[#ff9ab7]'>
+            <div className='rounded-lg p-4 py-6 w-full md:w-1/2 bg-[#ff9ab7]'>
                 <h1 className='text-2xl font-slight-bold px-3'>Contact me</h1>
                 <form className='mt-3 px-3' >
                     <div className="flex w-full justify-between">
