@@ -3,10 +3,22 @@
 @tailwind utilities;
 
 .gradient-anim {
-    background: linear-gradient(270deg, #fbcfe8, #f472b6, #fbcfe8, #f472b6);
+    background: linear-gradient(270deg, #fbcfe8, rgb(210, 78, 124), #fbcfe8, #fa81a3);
     background-size: 200% 200%;
     animation: gradient-animation 4s ease infinite;
-  }
+}
+
+.gradient-anim-2{
+    background: linear-gradient(150deg, #fbcfe8, #ffd2df, rgb(210, 78, 124), #ffd2df);
+    background-size: 200% 200%;
+    animation: gradient-animation 7s ease infinite;
+}
+
+.gradient-anim-3{
+    background: linear-gradient(70deg, #f9cbd9, #f7bbcc, #ffd2df,rgb(228, 88, 137));
+    background-size: 200% 200%;
+    animation: gradient-animation 8s ease infinite;
+}
   
   @keyframes gradient-animation {
     0% {
@@ -19,4 +31,21 @@
       background-position: 0% 50%;
     }
   }
+
+  @keyframes fadeInScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.2);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .image-animation {
+    animation: fadeInScale 2s ease forwards;
+    animation-delay: 0.2s; /* Optional delay to start the animation */
+  }
+  
   

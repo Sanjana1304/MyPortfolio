@@ -5,7 +5,7 @@ const HeroRyt = () => {
     <div className='flex flex-col justify-between h-full'>
       <div className='h-[81%] border'>b</div>
 
-      <div className='bg-[#ffd2df] h-[18%] rounded-lg p-3 '>
+      <div className='gradient-anim-2 h-[18%] rounded-lg p-3 '>
         <h1 className='text-xl'>Education</h1>
         <p className='text-sm'><span className='font-bold'>B.Tech</span> in Computer Science and Engineering</p>
         <p className='text-sm'>Presidency University, Bangalore</p>

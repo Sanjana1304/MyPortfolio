@@ -6,13 +6,13 @@ const HeroLeft = () => {
   return (
     <div>
         <div className='flex justify-between'>
-            <div className='w-[59%] py-[40px] sm:py-[90px] px-10 text-xl sm:text-3xl  xl:text-4xl bg-[#ffd2df] rounded-lg flex items-center justify-center'>
+            <div className='w-[59%] py-[40px] sm:py-[90px] px-10 text-xl sm:text-3xl  xl:text-4xl rounded-lg flex items-center justify-center gradient-anim-2'>
                 <p><span className='font-custom-weight'>Full Stack Developer</span> <i>Crafting</i> Intelligent Solutions with <span className='font-custom-weight'>MERN & AI</span></p>
             </div>
 
             <div 
-                className=' w-[39%] bg-[#ffd2df] rounded-lg bg-cover flex justify-center'>
-                    <img src="/picme.jpeg" alt="" className=' h-full md:h-[400px] rounded-lg' />
+                className=' w-[39%] bg-[#ffd2df] rounded-lg bg-cover flex justify-center image-animation'>
+                    <img src="/picme.jpeg" alt="" className=' h-full md:h-[400px] rounded-lg ' />
             </div>
         </div>
 
@@ -36,7 +36,7 @@ const HeroLeft = () => {
                </div>
                <p></p>
             </div>
-            <div className='rounded-lg p-4 py-6 w-full md:w-1/2 bg-[#ff9ab7]'>
+            <div className='rounded-lg p-4 py-6 w-full md:w-1/2 gradient-anim'>
                 <h1 className='text-2xl font-slight-bold px-3'>Contact me</h1>
                 <form className='mt-3 px-3' >
                     <div className='md:mt-5'>

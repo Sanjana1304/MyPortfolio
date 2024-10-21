@@ -5,7 +5,7 @@ const Header = () => {
     const [expanded, setExpanded] = useState(false);
     
   return (
-    <header className="border bg-[#ffd2df] py-4 rounded-lg sm:py-6">
+    <header className="border gradient-anim-3 py-4 rounded-lg sm:py-6">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             <div className="flex">
