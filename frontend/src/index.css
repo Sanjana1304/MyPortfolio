@@ -31,21 +31,23 @@
       background-position: 0% 50%;
     }
   }
+   
 
   @keyframes fadeInScale {
     0% {
       opacity: 0;
-      transform: scale(0.2);
+      transform: translate(-40%, -50%) scale(0.1);
     }
     100% {
       opacity: 1;
-      transform: scale(1);
+      transform: translate(0, 0) scale(1);
     }
   }
   
   .image-animation {
-    animation: fadeInScale 2s ease forwards;
-    animation-delay: 0.2s; /* Optional delay to start the animation */
+    animation: fadeInScale 2.5s ease forwards;
+    animation-delay: 0.3s; /* Optional delay to start the animation */
   }
+  
   
   

@@ -22,13 +22,13 @@ const HeroLeft = () => {
                
                <div className='flex flex-col sm:flex-row justify-between md:flex-col gap-2 text-black'>
                 <div className="flex md:flex-col gap-1 sm:w-1/2 md:w-full">
-                    <p className=' p-3 text-[12px] lg:py-2 md:text-sm rounded-lg px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>+918838202521</p>
-                    <p className='p-3 rounded-lg lg:py-2 px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>Mail</p>
+                    <a href='tel:+918838202521' target='_blank' className=' p-3 text-[12px] lg:py-2 md:text-sm rounded-lg px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>+918838202521</a>
+                    <a href='mailto:sensanjana072@gmail.com' target='_blank' className='p-3 rounded-lg lg:py-2 px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>Mail</a>
                 </div>
 
                 <div className="flex md:flex-col gap-1 sm:w-1/2 md:w-full">
-                <p className=' p-3 rounded-lg lg:py-2 px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>GitHub</p>
-               <p className=' p-3 rounded-lg lg:py-2 px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>LinkedIn</p>
+                <a href='https://github.com/Sanjana1304/' target='_blank' className=' p-3 rounded-lg lg:py-2 px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>GitHub</a>
+               <a href='https://www.linkedin.com/in/sanjana-acharya-a84b03231' target='_blank' className=' p-3 rounded-lg lg:py-2 px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>LinkedIn</a>
                
                 </div>
                
