@@ -1,4 +1,5 @@
 import React from 'react'
+import '../index.css'
 
 const HeroLeft = () => {
     // f6cfc9
@@ -19,15 +20,15 @@ const HeroLeft = () => {
             <div className='py-[30px] px-10 w-full mb-2 md:w-[49%] text-gray-600 bg-[#ffd2df] rounded-lg'>
                <h1 className='text-black text-2xl font-slight-bold mb-2 md:mb-3'>Let's Connect !</h1>
                
-               <div className='flex flex-col sm:flex-row justify-between md:flex-col gap-2'>
+               <div className='flex flex-col sm:flex-row justify-between md:flex-col gap-2 text-black'>
                 <div className="flex md:flex-col gap-1 sm:w-1/2 md:w-full">
-                    <p className='bg-[#ff9ab7] p-3 text-[12px] lg:py-2 md:text-sm rounded-lg px-4 cursor-pointer w-1/2 md:w-full'>+918838202521</p>
-                    <p className='bg-[#ff9ab7] p-3 lg:py-2 rounded-lg px-4 cursor-pointer w-1/2 md:w-full'>Mail</p>
+                    <p className=' p-3 text-[12px] lg:py-2 md:text-sm rounded-lg px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>+918838202521</p>
+                    <p className='p-3 rounded-lg lg:py-2 px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>Mail</p>
                 </div>
 
                 <div className="flex md:flex-col gap-1 sm:w-1/2 md:w-full">
-                <p className='bg-[#ff9ab7] p-3 rounded-lg lg:py-2 px-4 cursor-pointer w-1/2 md:w-full'>GitHub</p>
-               <p className='bg-[#ff9ab7] p-3 rounded-lg lg:py-2 px-4 cursor-pointer w-1/2 md:w-full'>LinkedIn</p>
+                <p className=' p-3 rounded-lg lg:py-2 px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>GitHub</p>
+               <p className=' p-3 rounded-lg lg:py-2 px-4 cursor-pointer w-1/2 md:w-full gradient-anim'>LinkedIn</p>
                
                 </div>
                
