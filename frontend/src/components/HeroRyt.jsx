@@ -4,7 +4,7 @@ const HeroRyt = () => {
   return (
     <div className='flex flex-col justify-between h-full'>
       <div className='h-[64%] border p-3 rounded-lg bg-[#ffd2df]'>
-        <h1 className='text-xl'>Technical Skills</h1>
+        <h1 className='text-xl mb-1'>Technical Skills</h1>
         <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-2 gap-4">
           <p className="p-3 rounded-lg lg:py-2 px-4 w-full  bg-gradient-to-b from-pink-400 to-pink-700 hover:from-pink-700 hover:to-pink-400 text-white">React.js</p>
           <p className="p-3 rounded-lg lg:py-2 px-4 w-full bg-gradient-to-b from-pink-400 to-pink-700 hover:from-pink-700 hover:to-pink-400 text-white">Node.js</p>
@@ -27,7 +27,8 @@ const HeroRyt = () => {
 
       <div className="border h-[15%] rounded-lg p-3">
         <h1 className='text-lg mb-1'>Check Out My <span className='font-bold'>Resume</span></h1>
-        <button className='gradient-anim p-2 w-full rounded-lg px-5 font-semibold'>Download</button>
+        {/* https://drive.google.com/file/d/1X7k1-Bh40c2kudQW5kWvxgBqLFAaUiW4/view?usp=sharing */}
+        <a href="/SANJANA_S_RESUME.pdf" download><button className='gradient-anim p-2 w-full rounded-lg px-5 font-semibold'>Download</button></a>
       </div>
 
       <div className='gradient-anim-2 h-[19%] rounded-lg p-3 '>

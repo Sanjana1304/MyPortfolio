@@ -63,10 +63,10 @@ const Header = () => {
               <button 
                 className="text-sm font-normal text-gray-600 transition hover:text-black"
               >
-                PROJECTS
+                EXPERIENCE
               </button>
               <button className="text-sm font-normal text-gray-600 transition hover:text-black">
-                EXPERIENCE
+                PROJECTS
               </button>
               <button className="text-sm font-normal text-gray-600 transition hover:text-black">
                 CONTACT
@@ -86,15 +86,15 @@ const Header = () => {
                     role='button'
                 
                 >
-                PROJECTS
+                EXPERIENCE
                 </a>
 
                 <a 
                   className="text-sm font-normal text-gray-600 transition hover:text-black"
                   role='button'
                 >
+                PROJECTS
                 
-                EXPERIENCE
                 </a>
 
                 <a 
