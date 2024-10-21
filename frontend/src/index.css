@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color: black;
+}
 .gradient-anim {
     background: linear-gradient(270deg, #fbcfe8, rgb(210, 78, 124), #fbcfe8, #fa81a3);
     background-size: 200% 200%;
