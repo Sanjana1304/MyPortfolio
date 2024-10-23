@@ -14,13 +14,13 @@ const Experience = () => {
 
         <div className="flex justify-center">
             <div className=' w-[88%] flex justify-end'>
-                    <ExpBox/>
+                    <ExpBox role={'Web Designer (React)'} org={'Aviva Organics'} desc={['Developed a responsive and interactive e-visiting card using React and TailwindCSS','Collaborated with the client to design a visually appealing digital card ']}/>
             </div>
         </div>
 
         <div className="flex justify-center">
             <div className=' w-[88%]'>
-                    <ExpBox/>
+                    <ExpBox role={'Freelance Project Developer (Java)'} org={'Victory Group Of Institutions'} desc={['Developed a customer-friendly action request system using Java, Swing, and MySQL to streamline service request submissions for a student\'s final year project improving efficiency by reducing unnecessary customer interactions.','Implemented database connectivity using JDBC and MySQL, allowing seamless storage and retrieval of customer requests for processing by faculty or staff']}/>
             </div>
         </div>
 
