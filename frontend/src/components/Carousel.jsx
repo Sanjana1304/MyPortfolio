@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import '../Carousel.css'; // Move your CSS file here
 //import a from '../'
 
-const Carousel = () => {
+const Carousel = ({ onHover }) => {
   useEffect(() => {
     const container = document.querySelector(".container");
     const containerCarrossel = container.querySelector(".container-carrossel");
@@ -32,6 +32,10 @@ const Carousel = () => {
         const degreesByItem = degrees * i + "deg";
         item.style.setProperty("--rotatey", degreesByItem);
         item.style.setProperty("--tz", tz + "px");
+
+         // Add event listeners for hover
+         item.addEventListener('mouseenter', () => onHover(i + 1)); // Pass the item number (i + 1)
+         item.addEventListener('mouseleave', () => onHover(null)); // Clear the hover state on leave
       });
     };
 
@@ -92,7 +96,7 @@ const Carousel = () => {
     };
 
     initEvents();
-  }, []);
+  }, [onHover]);
 
   return (
     <div className="conteudo__geral">
@@ -100,11 +104,11 @@ const Carousel = () => {
         <div className="container-carrossel">
           <div className="carrossel">
             <div className="carrossel-item">hi</div>
-            <div className="carrossel-item"></div>
-            <div className="carrossel-item"></div>
-            <div className="carrossel-item"></div>
-            <div className="carrossel-item"></div>
-            <div className="carrossel-item"></div>
+            <div className="carrossel-item">hi2</div>
+            <div className="carrossel-item">hi3</div>
+            <div className="carrossel-item">hi4</div>
+            <div className="carrossel-item">hi5</div>
+            <div className="carrossel-item">hi6</div>
           </div>
         </div>
       </div>

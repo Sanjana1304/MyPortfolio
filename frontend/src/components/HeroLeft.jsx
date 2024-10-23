@@ -11,7 +11,7 @@ const HeroLeft = () => {
             </div>
 
             <div 
-                className=' w-[39%] bg-[#ffd2df] rounded-lg bg-cover flex justify-center image-animation'>
+                className=' w-[40%] bg-[#ffd2df] rounded-lg bg-cover flex justify-center image-animation'>
                     <img src="/picme.jpeg" alt="" className=' h-full md:h-[400px] rounded-lg ' />
             </div>
         </div>
