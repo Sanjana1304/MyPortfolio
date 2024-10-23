@@ -26,7 +26,7 @@ const HeroRyt = () => {
       </div>
 
       <div className="border h-[15%] rounded-lg p-3">
-        <h1 className='text-lg mb-1'>Check Out My <span className='font-bold'>Resume</span></h1>
+        <h1 className='text-lg mb-1 text-white'>Check Out My <span className='font-bold'>Resume </span>!</h1>
         {/* https://drive.google.com/file/d/1X7k1-Bh40c2kudQW5kWvxgBqLFAaUiW4/view?usp=sharing */}
         <a href="/SANJANA_S_RESUME.pdf" download><button className='gradient-anim p-2 w-full rounded-lg px-5 font-semibold'>Download</button></a>
       </div>
