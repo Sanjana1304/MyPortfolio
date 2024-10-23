@@ -103,12 +103,24 @@ const Carousel = ({ onHover }) => {
       <div className="container">
         <div className="container-carrossel">
           <div className="carrossel">
-            <div className="carrossel-item">hi</div>
+            <div 
+            style={{
+              backgroundImage: "url('/bookastaypic.jpg')",
+              backgroundSize: 'cover', 
+              backgroundPosition: 'center', 
+            }}
+              className="carrossel-item"
+              id='cr_main'>
+              
+            </div>
             <div className="carrossel-item">hi2</div>
             <div className="carrossel-item">hi3</div>
             <div className="carrossel-item">hi4</div>
             <div className="carrossel-item">hi5</div>
             <div className="carrossel-item">hi6</div>
+            <div className="carrossel-item">hi7</div>
+            <div className="carrossel-item">hi8</div>
+            <div className="carrossel-item">hi10</div>
           </div>
         </div>
       </div>
