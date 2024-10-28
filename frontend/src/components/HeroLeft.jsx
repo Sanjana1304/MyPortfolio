@@ -1,8 +1,25 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import '../index.css'
+import emailjs from 'emailjs-com';
 
 const HeroLeft = () => {
-    // f6cfc9
+    // color code: f6cfc9
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_bxysvq5', 'template_kl2gip9', form.current, '5YVgMxAb8LuTuwb_3')
+            .then((result) => {
+                console.log(result.text);
+                alert('Message sent successfully!');
+            }, (error) => {
+                console.log(error.text);
+                alert('Failed to send message, please try again later.');
+            });
+
+        e.target.reset();  // Optionally reset the form
+    };
   return (
     <div>
         <div className='flex justify-between'>
@@ -38,17 +55,15 @@ const HeroLeft = () => {
             </div>
             <div className='rounded-lg p-4 py-6 w-full md:w-1/2 gradient-anim'>
                 <h1 className='text-2xl font-slight-bold px-3'>Contact me</h1>
-                <form className='mt-3 px-3' >
+                <form className='mt-3 px-3' ref={form} onSubmit={sendEmail} >
                     <div className='md:mt-5'>
-
-                    
-                    <div className="flex w-full justify-between">
-                    <input type="text" placeholder='Name' className='w-[49%] p-1 px-2 text-sm rounded my-1' />
-                    <input type="email" placeholder='Email' className='w-[50%] p-1 px-2 text-sm rounded my-1' />
+                        <div className="flex w-full justify-between">
+                        <input type="text" name="user_name" placeholder='Name' className='w-[49%] p-1 px-2 text-sm rounded my-1' required />
+                        <input type="email" name="user_email" placeholder='Email' className='w-[50%] p-1 px-2 text-sm rounded my-1' required />
                     
                     </div>
                     
-                    <textarea placeholder='Message' rows={3} className='w-full p-1 px-2 text-sm rounded my-1'></textarea>
+                    <textarea name="message" placeholder='Message' rows={3} className='w-full p-1 px-2 text-sm rounded my-1' required/>
                     <button type='submit' className='bg-[#ffd2df] p-2 rounded w-full'>Send</button>
                     </div>
                 </form>

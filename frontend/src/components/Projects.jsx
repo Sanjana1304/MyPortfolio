@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import Carousel from './Carousel'
 
+// service id: service_bxysvq5
+//template id: template_d6s7wzn
+
 const Projects = () => {
     const [hoveredItem, setHoveredItem] = useState(null);
   
@@ -9,7 +12,7 @@ const Projects = () => {
         <h1 className='text-4xl mb-6 font-bold px-5'>Projects</h1>
         <div className="flex flex-col xl:flex-row justify-around">
             <Carousel onHover={setHoveredItem}/>
-            <div className='shadow-lg w-[85%] mx-auto xl:w-[44%] p-5 py-10 flex justify-center items-center'>
+            <div className='shadow-lg rounded-lg w-[85%] mx-auto xl:w-[44%] p-5 py-10 flex justify-center items-center gradient-anim-2'>
                 {hoveredItem ? (
                     <p>
                         {hoveredItem === 1
