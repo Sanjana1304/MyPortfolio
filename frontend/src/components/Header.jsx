@@ -72,7 +72,7 @@ const Header = () => {
               EXPERIENCE
               </a>
               <a className="text-sm font-normal text-gray-600 transition hover:text-black">
-                CONTACT
+                MORE TO EXPLORE
               </a>
               
             </nav>
@@ -109,7 +109,7 @@ const Header = () => {
                   role='button'
                 >
                 
-                CONTACT
+                MORE TO EXPLORE
                 </a>
 
                
