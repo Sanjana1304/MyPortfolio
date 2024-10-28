@@ -9,8 +9,9 @@ const Layout = () => {
     <div className='m-2'>
         <Header/>
         <Hero/>
-        <Experience/>
         <Projects/>
+        <Experience/>
+        
     </div>
   )
 }

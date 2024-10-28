@@ -105,7 +105,7 @@ const Carousel = ({ onHover }) => {
           <div className="carrossel">
             <div 
             style={{
-              backgroundImage: "url('/bookastaypic.jpg')",
+              backgroundImage: "url('/hotelproj.png')",
               backgroundSize: 'cover', 
               backgroundPosition: 'center', 
             }}
@@ -113,14 +113,87 @@ const Carousel = ({ onHover }) => {
               id='cr_main'>
               
             </div>
-            <div className="carrossel-item">hi2</div>
-            <div className="carrossel-item">hi3</div>
-            <div className="carrossel-item">hi4</div>
-            <div className="carrossel-item">hi5</div>
-            <div className="carrossel-item">hi6</div>
-            <div className="carrossel-item">hi7</div>
-            <div className="carrossel-item">hi8</div>
-            <div className="carrossel-item">hi10</div>
+            <div 
+            style={{
+              backgroundImage: "url('/medimatchproj.png')",
+              backgroundSize: 'cover', 
+              backgroundPosition: 'center', 
+            }}
+              className="carrossel-item"
+              id='cr_main'>
+              
+            </div>
+            <div 
+            style={{
+              backgroundImage: "url('/netflixproj.png')",
+              backgroundSize: 'cover', 
+              backgroundPosition: 'center', 
+            }}
+              className="carrossel-item"
+              id='cr_main'>
+              
+            </div>
+            <div 
+            style={{
+              backgroundImage: "url('/ideaproj.png')",
+              backgroundSize: 'cover', 
+              backgroundPosition: 'center', 
+            }}
+              className="carrossel-item"
+              id='cr_main'>
+              
+            </div>
+            <div 
+            style={{
+              backgroundImage: "url('/movieproj.png')",
+              backgroundSize: 'cover', 
+              backgroundPosition: 'center', 
+            }}
+              className="carrossel-item"
+              id='cr_main'>
+              
+            </div>
+            <div 
+            style={{
+              backgroundImage: "url('/sudokuproj.png')",
+              backgroundSize: 'cover', 
+              backgroundPosition: 'center', 
+            }}
+              className="carrossel-item"
+              id='cr_main'>
+              
+            </div>
+            <div 
+            style={{
+              backgroundImage: "url('/recipeproj.png')",
+              backgroundSize: 'cover', 
+              backgroundPosition: 'center', 
+            }}
+              className="carrossel-item"
+              id='cr_main'>
+              
+            </div>
+            <div 
+            style={{
+              backgroundImage: "url('/amazonproj.png')",
+              backgroundSize: 'cover', 
+              backgroundPosition: 'center', 
+            }}
+              className="carrossel-item"
+              id='cr_main'>
+              
+            </div>
+            <div 
+            style={{
+              backgroundImage: "url('/resumeproj.png')",
+              backgroundSize: 'cover', 
+              backgroundPosition: 'center', 
+            }}
+              className="carrossel-item"
+              id='cr_main'>
+              
+            </div>
+            
           </div>
         </div>
       </div>
