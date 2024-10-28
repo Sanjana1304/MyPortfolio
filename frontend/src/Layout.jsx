@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import More from './components/More'
 
 const Layout = () => {
   return (
@@ -12,6 +13,7 @@ const Layout = () => {
         <Hero/>
         <Projects/>
         <Experience/>
+        <More/>
         <Footer/>
         
     </div>

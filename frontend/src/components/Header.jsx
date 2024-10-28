@@ -71,7 +71,7 @@ const Header = () => {
               className="text-sm font-normal text-gray-600 transition hover:text-black">
               EXPERIENCE
               </a>
-              <a className="text-sm font-normal text-gray-600 transition hover:text-black">
+              <a  href='#more' className="text-sm font-normal text-gray-600 transition hover:text-black">
                 MORE TO EXPLORE
               </a>
               
@@ -105,6 +105,7 @@ const Header = () => {
                 </a>
 
                 <a 
+                href='#more'
                   className="text-sm font-normal text-gray-600 transition hover:text-black"
                   role='button'
                 >
