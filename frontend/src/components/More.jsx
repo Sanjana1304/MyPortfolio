@@ -13,7 +13,7 @@ const More = () => {
         {
             heading: 'My First Open Source Contribution',
             datee: 'Aug 2024',
-            content: 'Excited to Share My Latest Open Source Contribution! I had the incredible opportunity to contribute to GrapplTech platform, Grabbit & Go, by designing and developing a stunning hero section component. Using React and Bootstrap, I created a responsive and visually appealing hero section that effectively captures user attention across all device views—desktop, mobile, and tablet. This component is now part of a curated selection of reusable web components, helping developers build websites more efficiently and collaboratively.',
+            content: 'Excited to Share About My Latest Open Source Contribution! I had the incredible opportunity to contribute to GrapplTech platform, Grabbit & Go, by designing and developing a stunning hero section component. Using React and Bootstrap, I created a responsive and visually appealing hero section that effectively captures user attention across all device views—desktop, mobile, and tablet. This component is now part of a curated selection of reusable web components, helping developers build websites more efficiently and collaboratively.',
         },
         {
             heading: 'Gold Badge in Problem Solving on HackerRank',
@@ -28,7 +28,7 @@ const More = () => {
     };
   return (
 
-    <section id='more' className='rounded-lg p-3 mt-3 bg-[#ffd2df]'>
+    <section id='more' className='rounded-lg p-3 mt-3 bg-[#ffd2df] pt-7'>
     <h1 className='font-bold text-3xl text-center'>More About Me</h1>
     <div className="testimonial-container relative overflow-hidden w-full flex flex-col justify-center items-center align-items-center">
         {moreData.length>0 && moreData.map((testimonial, index) => (
