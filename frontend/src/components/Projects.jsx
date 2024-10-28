@@ -14,7 +14,7 @@ const Projects = () => {
             <Carousel onHover={setHoveredItem}/>
             <div className='shadow-lg rounded-lg w-[85%] mx-auto xl:w-[44%] p-5 py-10 flex justify-center items-center gradient-anim-2'>
                 {hoveredItem ? (
-                    <p>
+                    <div>
                         {hoveredItem === 1
                             ?   <>
                                     <h1 className='font-bold text-xl'>BookAStay - Hotel Booking App</h1>
@@ -146,7 +146,7 @@ const Projects = () => {
                         </>
                             : 'Default description'
                         }
-                    </p>
+                    </div>
                 ) : (
                     <p className='font-bold'>
                         HOLD AND MOVE THE MOUSE TO ROTATE THE CAROUSEL AND HOVER OVER AN ITEM IN THE CAROUSEL TO SEE THE PROJECT DESCRIPTION.
