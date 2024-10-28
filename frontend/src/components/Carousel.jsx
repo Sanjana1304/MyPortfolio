@@ -35,8 +35,8 @@ const Carousel = ({ onHover }) => {
 
          // Add event listeners for hover
          item.addEventListener('mouseenter', () => onHover(i + 1)); // Pass the item number (i + 1)
-         item.addEventListener('mouseleave', () => onHover(null)); // Clear the hover state on leave
-      });
+         //item.addEventListener('mouseleave', () => onHover(null)); // Clear the hover state on leave
+        });
     };
 
     const lerp = (a, b, n) => n * (a - b) + b;
