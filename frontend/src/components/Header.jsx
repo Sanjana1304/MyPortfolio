@@ -61,13 +61,15 @@ const Header = () => {
             {/* Desktop Navigation */}
             <nav className=" hidden md:flex md:items-center space-x-8 lg:ml-15 lg:space-x-10">
               <a 
-              href='#experience'
+              href='#projects'
                 className="text-sm font-normal text-gray-600 transition hover:text-black"
               >
-                EXPERIENCE
+                 PROJECTS
               </a>
-              <a className="text-sm font-normal text-gray-600 transition hover:text-black">
-                PROJECTS
+              <a 
+              href='#experience'
+              className="text-sm font-normal text-gray-600 transition hover:text-black">
+              EXPERIENCE
               </a>
               <a className="text-sm font-normal text-gray-600 transition hover:text-black">
                 CONTACT
@@ -83,19 +85,22 @@ const Header = () => {
             <nav className="mt-4">
               <div className="flex flex-col pt-8 pb-4 space-y-6">
                 <a 
-                  href='#experience'
+                href='#projects'
+                 
                     className="text-sm font-normal text-gray-600 transition hover:text-black"
                     
                 
                 >
-                EXPERIENCE
+                  PROJECTS
+                
                 </a>
 
                 <a 
+                 href='#experience'
                   className="text-sm font-normal text-gray-600 transition hover:text-black"
                   role='button'
                 >
-                PROJECTS
+                EXPERIENCE
                 
                 </a>
 
