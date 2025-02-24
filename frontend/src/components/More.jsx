@@ -1,10 +1,21 @@
 import React, { useState } from 'react'
 
 const More = () => {
-    const lng = [1,2,3];
+    const lng = [1,2,3,4,5];
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const moreData = [
+        {
+            heading: 'How I Cracked IBM',
+            datee: 'Dec 2024',
+            content: 'Excited to share my journey of cracking IBM through college campus placements! I had the opportunity to interview for the role of Software Engineer at IBM, where I went through Technical MCQs, Coding, Technical and HR Round. The coding round consisted of DSA Questions and one question was expected to be written in C compulsorily. In the MCQ round, it was about DBMS, Networking and Linux Commands. During the interview, I discussed my experience working on various projects, including developing web applications using React and Node.js. I was asked about my understanding of JWT Authentication, data structures & algorithms and SQL. Overall, it was a great experience.',
+
+        },
+        {
+            heading: 'My Interview Experience at EY',
+            datee: '...and How I Cracked it (Sep 2024)',
+            content: 'Excited to share my interview experience at EY through college campus placements! I had the opportunity to interview for the role of Consulting Engineer at EY, where I went through Aptitude, Coding, Communication, Technical and HR Round. During the interview, I discussed my experience working on various projects, including developing web applications using React and Node.js. I was asked about SAP, ERP and Abap Programming Language. Overall, it was a great experience.',
+        },
         {
             heading: 'Woohoo! Got My IBM Certification',
             datee: 'Sep 2024',
